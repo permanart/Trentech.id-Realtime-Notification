@@ -1,0 +1,387 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    clear: both;
+}
+tr, td {
+    border-collapse: collapse;
+}
+
+notification_counts {
+    background: red none repeat scroll 0% 0%;
+    font-size: 1px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1px 1px;
+    vertical-align: middle;
+	margin-right: 5px;
+}
+
+.notification_parts{
+
+}
+.notification_parts ul {
+    margin: 0px;
+}
+.notification_parts ul li{
+
+}
+a.livenotifications_items {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: none;
+    color: #333;
+    font-weight: 400;
+    text-decoration: non;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px;
+    border-bottom: 1px solid #E5E5E5;
+	text-decoration: none;
+}
+a.livenotifications_items.unread{
+    background: #f5f5f5;
+}
+a.livenotifications_items:hover{
+    background: #f6f6f6;
+    color: #444;
+}
+form#send-form{
+    overflow: hidden;
+    padding: 5px;
+    background: #fff;
+}
+table.report_action {
+    overflow: hidden;
+    padding: 5px;
+    background: #fff;
+    width: 100%;
+}
+table.report_action th {
+    display: block;
+    font-weight: 400;
+}
+table.report_action tr {
+    display: block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: #fff;
+	padding: 0px;
+    border: 0px none;
+}
+.notice, .error {
+    margin: 5px;
+    padding: 5px;
+    background: #FCF8E3;
+    color: #573905;
+    border: 1px solid #F0E0BE;
+    position: relative;
+}
+.warp .notice p, .warp .error p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 14px;
+    padding: 3px 0px;
+}
+table.report_action tr#rrr {
+    background: #f8f3f3;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+table.report_action tr#rrr p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 13px;
+}
+table.report_action textarea {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    box-shadow: none;
+    height: 80px;
+    border-radius: 4px;
+    color: #333;
+}
+table.report_action label {
+    display: block;
+    cursor: pointer;
+}
+table.report_action td {
+    display: block;
+}
+table.report_action tr a {
+    color: #4462a2;
+    font-weight: 600;
+}
+table.report_action th p, table.report_action td p, table.report_action tr p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+}
+table.nfic_lists{}
+.report_action input[type="text"] {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    box-shadow: none;
+    height: 35px;
+    border-radius: 4px;
+    color: #333;
+    padding: 5px 8px;
+    line-height: 17px;
+}
+#send-form input[type="submit"].button-primary{
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 8px;
+    background: #337AB7;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #2F6DA4;
+    height: 30px;
+    display: inline-block;
+}
+a.button-secondary {
+    color: #23282d;
+    font-size: 12px;
+    padding: 5px 8px;
+    background: #fafafa;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    height: 30px;
+    display: inline-block;
+}
+div p.submit {
+    padding: 2px 0px 0px;
+}
+table.nfic_lists p {
+    padding: 0px 0px 5px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 15px;
+}
+table.nfic_lists p a {
+    color: #4462a2;
+	text-decoration: none;
+	font-weight:600;
+}
+table.nfic_lists p:last-child {
+    padding: 2px 0px 0px;
+    color: #686363;
+    font-size: 13px;
+}
+.image {
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.post_inner{background:#fff; overflow: hidden; padding: 5px;}
+.notifications {
+    background-image: url(../img/nicon.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    margin-right: 5px;
+}
+.warn {
+    background-position: -52px -4px;
+}
+.cmd {
+    background-position: -4px -4px;
+}
+.rpy {
+    background-position: -28px -4px;
+}
+.nto,.rpt,.apr {
+    background-position: -52px -4px;
+}
+.rtc {
+    background-position: -207px -149px;
+}
+.notification_line {
+    overflow: hidden;
+}
+.notification_line li {
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 14px;
+}
+.notification_line li:last-child{
+    border-bottom: 0px none;
+}
+.notification_line li a.livebit {
+    display: block;
+    padding: 5px 8px 5px 5px;
+    background: #fff;
+}
+.notification_line .noti_content {
+    color: #222;
+    overflow: hidden;
+}
+.notification_line .noti_content span {
+    color: gray;
+    font-size: 12px;
+}
+.notification_line .noti_content a{
+    color: #222;
+}
+.notification_line .noti_content strong {
+    color: #333;
+    font-weight: bold;
+}
+.notification_line .noti_bottom {
+    color: gray;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.notification_line .noti_bottom span {
+    color: gray;
+    font-size: 12px;
+}
+.notification_line table td img.avatar {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 7px;
+}
+div.report a {
+    box-shadow: none;
+    border: 1px solid #D43F3A;
+    color: #fff;
+    background: #D9534F;
+    padding: 3px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: normal;
+    display: inline-block;
+}
+div.report, div.reported {
+    overflow: hidden;
+    margin: 5px;
+}
+
+.form_tabl_msge td.report_content {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 55, 60);
+    outline: 0px none;
+    transition: border-color 50ms ease-in-out 0s;
+    padding: 5px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    font-size: 13px;
+}
+.form_tabl_msge td {
+    padding: 5px 0px 4px;
+    overflow: hidden;
+    display: block;
+    width: auto;
+    vertical-align: middle;
+}
+.form_tabl_msge td.report_content a {
+    font-weight: bold;
+    font-size: 14px;
+}
+.wrap_action label {
+    cursor: pointer;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(35, 40, 45);
+    text-shadow: none;
+    font-size: 13px;
+    text-align: left;
+	float: left;
+}
+.form_tabl_msge td input[type="text"], .form_tabl_msge td input[type="password"], .form_tabl_msge td input[type="email"], .form_tabl_msge td select, .form_tabl_msge td textarea {
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 55, 60);
+    outline: 0px none;
+    transition: border-color 50ms ease-in-out 0s;
+    padding: 7px 5px;
+}
+.form_tabl_msge th {
+    overflow: hidden;
+    display: block;
+    line-height: 1.3;
+}
+.form_tabl_msge td {
+    padding: 5px 0px 4px;
+    overflow: hidden;
+    display: block;
+    width: auto;
+    vertical-align: middle;
+}
+a.back_page {
+    background: #f7f7f7;
+    color: #555;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+div.reported span {
+    background: #f7f7f7;
+    color: #555;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.report_index li.report_list2 {
+    margin: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.report_index .report_list ul li.fst_msg_avatr {
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.entry ul li {
+    list-style: outside disc;
+    list-style-image: none;
+}
+.entry li {
+    margin: 0 0 5px 0;
+}
+.report_index .report_list ul li.fst_msg_avatr img.avatar {
+    height: 40px;
+    width: 38px;
+    max-width: none;
+}
+.report_index .report_list ul li.sec_msg_con .rpt_content {
+    margin-top: 1px;
+}
+
+.post_inner_action{background:#fff;}
+
+.post_inner_action {
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
